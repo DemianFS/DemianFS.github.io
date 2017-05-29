@@ -1,0 +1,47 @@
+body{
+	
+    background-image: url(Desert.jpg);
+	background-size:cover;
+	color: White ;
+	font-size: 50px	;
+}
+#TEST{
+	margin:100px;
+	
+}
+
+	
+
+#polka_1{
+    position:absolute;
+	bottom:300px;
+	left:80px;
+	
+}
+#shkaf{
+	position:absolute;
+	margin:10px;
+	
+	
+}
+#polka_1:hover{
+	color:#000000;
+	animation-name:spin;
+	animation:spin 10s cubic-bezier(0.000, 0.000, 0.000, 1.075) ;
+	
+}
+
+@keyframes spin{
+		 
+		 0%{
+			 left:80px;
+		 }
+		 100%{
+			 left:190px;
+		 }
+		
+	}
+	
+
+	  
+	  
