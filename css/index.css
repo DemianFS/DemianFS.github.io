@@ -9,8 +9,11 @@ body{
 	margin:100px;
 	
 }
-
-	
+#polka_2{
+    position:absolute;
+	bottom:200px;
+	left:80px;
+}
 
 #polka_1{
     position:absolute;
@@ -25,6 +28,11 @@ body{
 	
 }
 #polka_1:hover{
+	color:#000000;
+	animation-name:spin;
+	animation:spin 10s cubic-bezier(0.000, 0.000, 0.000, 1.075) ;
+}
+#polka_2:hover{
 	color:#000000;
 	animation-name:spin;
 	animation:spin 10s cubic-bezier(0.000, 0.000, 0.000, 1.075) ;
